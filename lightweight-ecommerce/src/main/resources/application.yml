@@ -1,0 +1,200 @@
+spring:
+  application:
+    name: ecommerce-backend
+
+  profiles:
+    active: ${SPRING_PROFILE:dev}
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DB_USERNAME:admin}
+    password: ${DB_PASSWORD:admin@*123}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:10}
+      minimum-idle: 2
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: ${JPA_SHOW_SQL:false}
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          batch_size: 20
+        order_inserts: true
+        order_updates: true
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: ${MAX_FILE_SIZE:50MB}
+      max-request-size: ${MAX_REQUEST_SIZE:50MB}
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+    validate-on-migrate: true
+
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: ${MAIL_SMTP_AUTH:true}
+          starttls:
+            enable: ${MAIL_SMTP_STARTTLS:true}
+            required: ${MAIL_SMTP_STARTTLS_REQUIRED:false}
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+        debug: ${MAIL_DEBUG:false}
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: ${THYMELEAF_CACHE:false}
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      indent-output: true
+    default-property-inclusion: non_null
+
+  security:
+    user:
+      name: ${BASIC_AUTH_USERNAME:admin}
+      password: ${BASIC_AUTH_PASSWORD:admin123}
+
+# ─── Application ────────────────────────────────────────────────────────────────
+
+app:
+  default-language: ${APP_DEFAULT_LANGUAGE:en}
+  supported-languages: ${APP_SUPPORTED_LANGUAGES:en,fr,es,de}
+  frontend-url: ${FRONTEND_URL:http://localhost:4200}
+  company-name: ${COMPANY_NAME:Your E-commerce Store}
+  support-email: ${SUPPORT_EMAIL:support@yourcompany.com}
+
+  mail:
+    from-email: ${MAIL_FROM_EMAIL:${spring.mail.username}}
+    from-name: ${MAIL_FROM_NAME:${app.company-name}}
+    enabled: ${MAIL_ENABLED:true}
+
+  jwt-secret: ${JWT_SECRET:change-me-to-a-very-long-secret-at-least-32-chars!!}
+  jwt-expiration-ms: 86400000   # 24 hours
+  admin:
+    email: ${ADMIN_EMAIL:admin@ecommerce.com}
+    password: ${ADMIN_PASSWORD:admin123}
+
+  # ─── Storage ──────────────────────────────────────────────────────────────────
+  storage:
+    # Where files are saved on disk
+    # Dev:  ./uploads  (relative to project root)
+    # Prod: /var/app/uploads or /app/uploads (absolute)
+    base-dir: ${STORAGE_BASE_DIR:uploads}
+
+    # Allowed MIME types for upload validation
+    allowed-types:
+      - image/jpeg
+      - image/png
+      - image/webp
+      - image/gif
+      - application/pdf
+      - application/msword
+      - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+      - application/vnd.ms-excel
+      - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      - text/csv
+      - text/plain
+
+    # Max file size in bytes (default 50MB)
+    max-file-size: ${STORAGE_MAX_FILE_SIZE:52428800}
+
+  # ─── Media ────────────────────────────────────────────────────────────────────
+  media:
+    # URL prefix that Nginx maps to storage.base-dir
+    # Angular uses this prefix to display images
+    # Never change this after going to production
+    base-url: ${MEDIA_BASE_URL:/media}
+
+# ─── Server ─────────────────────────────────────────────────────────────────────
+
+server:
+  port: ${SERVER_PORT:8080}
+  servlet:
+    context-path: ${CONTEXT_PATH:/}
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: on_param
+    include-exception: false
+
+# ─── Logging ────────────────────────────────────────────────────────────────────
+
+logging:
+  level:
+    root: ${LOG_LEVEL_ROOT:INFO}
+    com.ecommerce: ${LOG_LEVEL_APP:DEBUG}
+    org.springframework.web: ${LOG_LEVEL_SPRING_WEB:INFO}
+    org.springframework.security: ${LOG_LEVEL_SPRING_SECURITY:INFO}
+    org.hibernate: ${LOG_LEVEL_HIBERNATE:WARN}
+    org.hibernate.SQL: ${LOG_LEVEL_HIBERNATE_SQL:DEBUG}
+    org.hibernate.type.descriptor.sql.BasicBinder: ${LOG_LEVEL_HIBERNATE_BINDER:TRACE}
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: ${LOG_FILE:logs/application.log}
+    max-size: ${LOG_FILE_MAX_SIZE:10MB}
+    max-history: ${LOG_FILE_MAX_HISTORY:30}
+
+# ─── Actuator ───────────────────────────────────────────────────────────────────
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when-authorized
+  metrics:
+    export:
+      enabled: false
+
+# ─── Springdoc ──────────────────────────────────────────────────────────────────
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    displayRequestDuration: true
+    defaultModelsExpandDepth: 3
+    defaultModelExpandDepth: 3
+    docExpansion: none
+    filter: true
+    showExtensions: true
+    showCommonExtensions: true
+  show-actuator: false
+  packages-to-scan: com.ecommerce.web
+  paths-to-match: /api/**

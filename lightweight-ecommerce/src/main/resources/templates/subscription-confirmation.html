@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jawista</title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            color: #000000;
+            line-height: 1.6;
+            background-color: #ffffff;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        /* ═══════════════════════════════════════════════ */
+        /* HEADER                                          */
+        /* ═══════════════════════════════════════════════ */
+        .header-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        /* When image is present — full width, no padding */
+        .header-image-block {
+            display: block;
+            width: 100%;
+            line-height: 0;
+            font-size: 0;
+        }
+
+        .header-image-block img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Text fallback — padded */
+        .header-text-block {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header-logo-text {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: #ffffff;
+        }
+
+        /* ═══════════════════════════════════════════════ */
+        /* BODY CONTENT                                    */
+        /* ═══════════════════════════════════════════════ */
+        .body-content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* Greeting */
+        .greeting {
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .greeting strong {
+            font-weight: 600;
+        }
+
+        /* Tagline */
+        .tagline {
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #000000;
+        }
+
+        /* Main content */
+        .content {
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            font-size: 17px;
+            font-weight: 400;
+            color: #000000;
+            margin-bottom: 22px;
+            line-height: 1.65;
+        }
+
+        /* Closing */
+        .closing {
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            color: #000000;
+        }
+
+        /* Signature */
+        .signature {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 0;
+            color: #000000;
+        }
+
+        /* ═══════════════════════════════════════════════ */
+        /* FOOTER                                          */
+        /* ═══════════════════════════════════════════════ */
+        .footer-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #000000;
+        }
+
+        .footer-col-left,
+        .footer-col-center,
+        .footer-col-right {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .footer-col-left {
+            width: 200px;
+            padding: 28px 20px;
+        }
+
+        .footer-col-center {
+            width: 160px;
+            padding: 28px 10px;
+            text-align: center;
+        }
+
+        .footer-col-right {
+            width: 200px;
+            padding: 28px 20px;
+            text-align: right;
+        }
+
+        .footer-brand {
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .footer-section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .footer-section-content {
+            font-size: 12px;
+            font-weight: 400;
+            color: #cccccc;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .footer-logo-text {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: #ffffff;
+        }
+
+        .footer-contact {
+            font-size: 12px;
+            color: #cccccc;
+            margin-bottom: 4px;
+        }
+
+        .footer-link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer-social-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+
+        /* Unsubscribe */
+        .unsubscribe-bar {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #000000;
+            padding: 12px 20px;
+            text-align: center;
+            border-top: 1px solid #333333;
+        }
+
+        .unsubscribe-bar p {
+            font-size: 11px;
+            color: #888888;
+        }
+
+        .unsubscribe-bar a {
+            color: #888888;
+            text-decoration: underline;
+        }
+
+        .unsubscribe-bar a:hover {
+            color: #ffffff;
+        }
+
+        /* ═══════════════════════════════════════════════ */
+        /* RESPONSIVE                                      */
+        /* ═══════════════════════════════════════════════ */
+        @media only screen and (max-width: 600px) {
+            .header-text-block {
+                padding: 30px 15px;
+            }
+
+            .header-logo-text {
+                font-size: 28px;
+            }
+
+            .body-content {
+                padding: 40px 15px;
+            }
+
+            .footer-col-left,
+            .footer-col-center,
+            .footer-col-right {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                padding: 20px 24px !important;
+            }
+
+            .footer-col-left {
+                padding-bottom: 16px !important;
+                border-bottom: 1px solid #333333;
+            }
+
+            .footer-col-center {
+                padding-top: 20px !important;
+                padding-bottom: 20px !important;
+                border-bottom: 1px solid #333333;
+            }
+
+            .footer-col-right {
+                padding-top: 20px !important;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .header-text-block {
+                padding: 24px 12px;
+            }
+
+            .header-logo-text {
+                font-size: 24px;
+            }
+
+            .body-content {
+                padding: 30px 12px;
+            }
+
+            .footer-logo-text {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- HEADER — full width image or text fallback          -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div class="header-wrapper">
+    <th:block th:if="${headerLogoUrl != null}">
+        <div class="header-image-block">
+            <img th:src="${headerLogoUrl}"
+                 th:alt="${brandName} ?: 'Jawista'"
+                 style="display: block; width: 100%; height: auto;"
+                 width="600">
+        </div>
+    </th:block>
+    <th:block th:unless="${headerLogoUrl != null}">
+        <div class="header-text-block">
+            <div class="header-logo-text"
+                 th:text="${brandName} ?: 'Jawista'">
+                Jawista
+            </div>
+        </div>
+    </th:block>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- BODY CONTENT                                        -->
+<!-- ═══════════════════════════════════════════════════ -->
+    <div class="content">
+        <p th:text="${line1} ?: 'Welcome to Jawista, a space for those who notice, who feel, who move with intention.'">
+            Welcome to Jawista, a space for those who notice, who feel, who move with intention.
+        </p>
+
+        <p th:utext="${line2} ?: 'This is more than updates and drops.&lt;br&gt;It\'s a way of seeing things differently — in the details, in the rhythm, in the everyday.'">
+            This is more than updates and drops.<br>
+            It's a way of seeing things differently — in the details, in the rhythm, in the everyday.
+        </p>
+
+        <p th:text="${line3} ?: 'You\'ll be the first to know about new releases, behind-the-scenes moments, and what\'s coming next.'">
+            You'll be the first to know about new releases, behind-the-scenes moments, and what's coming next.
+        </p>
+
+        <p th:text="${line4} ?: 'And when your first order arrives, you\'ll receive your Jawista club member card, a small piece that marks your place in the community.'">
+            And when your first order arrives, you'll receive your Jawista club member card,
+            a small piece that marks your place in the community.
+        </p>
+    </div>
+
+    <!-- ── Discount Code (only if exists) ─────────────────────── -->
+    <div th:if="${hasDiscount}" style="
+        background-color: #000000;
+        padding: 28px 24px;
+        margin-bottom: 30px;
+        text-align: center;
+    ">
+        <p style="
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        ">
+            Your welcome discount
+        </p>
+        <p style="
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #FFD700;
+            margin-bottom: 8px;
+            font-family: 'DM Sans', monospace;
+        "
+           th:text="${discountCode}">
+            JWST-CODE-ABC123
+        </p>
+        <p style="
+            font-size: 13px;
+            font-weight: 400;
+            color: #cccccc;
+        ">
+            10% off your first order
+        </p>
+    </div>
+
+    <!-- ── Closing ────────────────────────────────────────── -->
+    <p class="closing" th:text="${closing} ?: 'Until then! Stay in the moment.'">
+        Until then! Stay in the moment.
+    </p>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- FOOTER                                              -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div class="footer-wrapper">
+
+    <!--[if mso]>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+           style="background-color:#000000;">
+    <tr>
+    <td width="200" valign="top" style="padding:28px 20px;">
+    <![endif]-->
+
+    <!-- LEFT COLUMN -->
+    <div class="footer-col-left">
+        <p class="footer-brand"
+           th:text="${footerBrand} ?: 'JWSTC©2026'">
+            JWSTC©2026
+        </p>
+        <p class="footer-section-title">Designed and made locally</p>
+        <p class="footer-section-title"
+           th:text="${footerCountry} ?: 'Tunisia'">
+            Tunisia
+        </p>
+        <p class="footer-section-content"
+           th:text="${footerMission} ?: 'Our country is rich in culture, nature, and heritage, we choose to create locally, so home travels with us.'">
+            Our country is rich in culture, nature, and heritage,<br>
+            we choose to create locally, so home travels with us.
+        </p>
+    </div>
+
+    <!--[if mso]>
+    </td>
+    <td width="160" valign="middle" style="padding:28px 10px;text-align:center;">
+    <![endif]-->
+
+    <!-- CENTER COLUMN — FOOTER LOGO -->
+    <div class="footer-col-center">
+        <th:block th:if="${footerLogoUrl != null}">
+            <img th:src="${footerLogoUrl}"
+                 th:alt="${brandName} ?: 'Jawista'"
+                 style="max-height: 50px; max-width: 110px; display: block; margin: 0 auto;">
+        </th:block>
+        <th:block th:unless="${footerLogoUrl != null}">
+            <div class="footer-logo-text"
+                 th:text="${brandName} ?: 'Jawista'">
+                Jawista
+            </div>
+        </th:block>
+    </div>
+
+    <!--[if mso]>
+    </td>
+    <td width="200" valign="top" style="padding:28px 20px;text-align:right;">
+    <![endif]-->
+
+    <!-- RIGHT COLUMN -->
+    <div class="footer-col-right">
+        <p class="footer-contact">
+            <a th:href="'mailto:' + (${supportEmail} ?: 'Support@jawista.com')"
+               th:text="${supportEmail} ?: 'Support@jawista.com'"
+               class="footer-link">
+                Support@jawista.com
+            </a>
+        </p>
+        <p class="footer-contact"
+           th:text="${phone} ?: '(+216) 52 025 802'">
+            (+216) 52 025 802
+        </p>
+
+        <p class="footer-social-title">Join our community</p>
+        <p class="footer-contact">
+            <a th:href="${instagramUrl} ?: 'https://www.instagram.com/jawista'"
+               class="footer-link">
+                Instagram
+            </a>
+        </p>
+        <p class="footer-contact" style="margin-top: 8px;">
+            <a th:href="${websiteUrl} ?: 'https://www.jawista.com'"
+               th:text="${websiteUrl} ?: 'www.jawista.com'"
+               class="footer-link">
+                www.jawista.com
+            </a>
+        </p>
+    </div>
+
+    <!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- UNSUBSCRIBE                                         -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div class="unsubscribe-bar">
+    <p>
+        You're receiving this email because you subscribed at
+        <a th:href="${websiteUrl} ?: 'https://www.jawista.com'"
+           th:text="${websiteUrl} ?: 'www.jawista.com'">
+            www.jawista.com
+        </a>.
+        &nbsp;|&nbsp;
+        <a th:href="${unsubscribeUrl} ?: '#'">Unsubscribe</a>
+    </p>
+</div>
+
+</body>
+</html>

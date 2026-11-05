@@ -1,0 +1,35 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+  mail:
+    properties:
+      mail:
+        debug: false
+
+logging:
+  level:
+    com.ecommerce: INFO
+    org.springframework.web: WARN
+    org.hibernate.SQL: WARN
+    org.hibernate.type.descriptor.sql.BasicBinder: WARN
+
+app:
+  mail:
+    enabled: true
+
+  storage:
+    # Absolute path on the server
+    # Must match the Nginx alias and Docker volume mount
+    base-dir: ${STORAGE_BASE_DIR:/app/uploads}
+    max-file-size: ${STORAGE_MAX_FILE_SIZE:52428800}
+
+  media:
+    base-url: ${MEDIA_BASE_URL:/media}
+
+management:
+  metrics:
+    export:
+      enabled: true

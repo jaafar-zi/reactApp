@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.ecommerce.config.AppProperties",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    },
+    {
+      "name": "app.mail",
+      "type": "com.ecommerce.config.AppProperties$Mail",
+      "sourceType": "com.ecommerce.config.AppProperties",
+      "sourceMethod": "public com.ecommerce.config.AppProperties.Mail getMail() "
+    },
+    {
+      "name": "app.media",
+      "type": "com.ecommerce.config.MediaProperties",
+      "sourceType": "com.ecommerce.config.MediaProperties"
+    },
+    {
+      "name": "app.security",
+      "type": "com.ecommerce.config.AppProperties$Security",
+      "sourceType": "com.ecommerce.config.AppProperties",
+      "sourceMethod": "public com.ecommerce.config.AppProperties.Security getSecurity() "
+    },
+    {
+      "name": "app.storage",
+      "type": "com.ecommerce.config.StorageProperties",
+      "sourceType": "com.ecommerce.config.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.company-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    },
+    {
+      "name": "app.default-language",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    },
+    {
+      "name": "app.frontend-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    },
+    {
+      "name": "app.mail.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ecommerce.config.AppProperties$Mail"
+    },
+    {
+      "name": "app.mail.from-email",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties$Mail"
+    },
+    {
+      "name": "app.mail.from-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties$Mail"
+    },
+    {
+      "name": "app.media.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.MediaProperties"
+    },
+    {
+      "name": "app.security.jwt-expiration-ms",
+      "type": "java.lang.Long",
+      "sourceType": "com.ecommerce.config.AppProperties$Security"
+    },
+    {
+      "name": "app.security.jwt-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties$Security"
+    },
+    {
+      "name": "app.storage.allowed-types",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ecommerce.config.StorageProperties"
+    },
+    {
+      "name": "app.storage.base-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.StorageProperties"
+    },
+    {
+      "name": "app.storage.max-file-size",
+      "type": "java.lang.Long",
+      "sourceType": "com.ecommerce.config.StorageProperties"
+    },
+    {
+      "name": "app.support-email",
+      "type": "java.lang.String",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    },
+    {
+      "name": "app.supported-languages",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ecommerce.config.AppProperties"
+    }
+  ],
+  "hints": []
+}
