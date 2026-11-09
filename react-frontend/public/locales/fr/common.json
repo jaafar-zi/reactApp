@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "collections": "Collections",
+    "about": "À propos",
+    "cart": "Panier",
+    "login": "Connexion",
+    "register": "Inscription",
+    "profile": "Profil",
+    "logout": "Déconnexion"
+  },
+  "footer": {
+    "tagline": "Conçu avec intention.",
+    "shop": "Boutique",
+    "info": "Informations",
+    "contact": "Contact",
+    "allProducts": "Tous les produits",
+    "newArrivals": "Nouveautés",
+    "aboutUs": "À propos de nous",
+    "shipping": "Livraison & Retours",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "rights": "Tous droits réservés."
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Envoyer",
+    "loading": "Chargement..."
+  },
+  "messages": {
+    "success": "Succès",
+    "error": "Une erreur est survenue",
+    "notFound": "Page introuvable",
+    "unauthorized": "Veuillez vous connecter pour continuer"
+  }
+}

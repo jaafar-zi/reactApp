@@ -1,11 +1,11 @@
 package com.ecommerce.service;
 
+import com.ecommerce.config.AppProperties;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -22,16 +22,15 @@ public class JwtService {
     private final SecretKey signingKey;
     private final long expirationMs;
 
-    public JwtService(
-            @Value("${app.jwt.secret}") String secret,
-            @Value("${app.jwt.expiration-ms:86400000}") long expirationMs) {
+    public JwtService(AppProperties appProperties) {
+        String secret = appProperties.getSecurity().getJwtSecret();
+        this.expirationMs = appProperties.getSecurity().getJwtExpirationMs();
 
-        if (secret.length() < 32) {
+        if (secret == null || secret.length() < 32) {
             throw new IllegalArgumentException(
                 "JWT secret must be at least 32 characters (256 bits) for HS256");
         }
         this.signingKey = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
-        this.expirationMs = expirationMs;
     }
 
     // ─── Public API ─────────────────────────────────────────

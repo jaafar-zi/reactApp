@@ -91,9 +91,9 @@ app:
     from-email: ${MAIL_FROM_EMAIL:${spring.mail.username}}
     from-name: ${MAIL_FROM_NAME:${app.company-name}}
     enabled: ${MAIL_ENABLED:true}
-
-  jwt-secret: ${JWT_SECRET:change-me-to-a-very-long-secret-at-least-32-chars!!}
-  jwt-expiration-ms: 86400000   # 24 hours
+  security: 
+    jwt-secret: ${JWT_SECRET:ce0d3c3ac3852c28ef2e4775ae9a8c7079836ae7a93392f518918f989847404e}
+    jwt-expiration-ms: 86400000   
   admin:
     email: ${ADMIN_EMAIL:admin@ecommerce.com}
     password: ${ADMIN_PASSWORD:admin123}
