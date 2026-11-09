@@ -3380,3 +3380,593 @@
 2026-11-09 10:58:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
 2026-11-09 10:58:31 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
 2026-11-09 10:58:31 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:41 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:41 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:21 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:21 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:59:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:59:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:21 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:21 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:41 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:41 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:00:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:00:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:01:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:01:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:01:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:31 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:01:31 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:34 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 11:01:34 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:34 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 11:01:34 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 11:01:34 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@2c0a62c, com.ecommerce.dto.ProductDTO@21f676f1, com.ecommerce.dto.Prod (truncated)...]
+2026-11-09 11:01:35 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg", parameters={}
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg", parameters={}
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 11:01:35 [http-nio-8080-exec-10] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 11:01:35 [http-nio-8080-exec-9] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png", parameters={}
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg", parameters={}
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 11:01:35 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 11:01:35 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 11:01:35 [http-nio-8080-exec-3] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 11:01:35 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 11:01:35 [http-nio-8080-exec-5] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 11:01:35 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@3111bd86, com.ecommerce.dto.ProductDTO@64f2539, com.ecommerce.dto.Prod (truncated)...]
+2026-11-09 11:01:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 11:01:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 11:01:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
