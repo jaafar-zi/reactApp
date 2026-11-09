@@ -8,6 +8,7 @@ import AppLayout from '../AppLayout';
 import Login from '../features/auth/pages/auth/Login';
 import Register from '../features/auth/pages/auth/Register';
 import Profile from '../features/auth/pages/profile/Profile';
+import ProtectedRoute from '../shared/components/ProtectedRoute';
 
 const Loader = () => (
   <Box sx={{
@@ -26,7 +27,14 @@ const AppRouter: React.FC = () => (
         <Route path={APP_ROUTES.home} element={<ProductListPage />} />
         <Route path={APP_ROUTES.collections.all} element={<ProductListPage />} />
         <Route path={APP_ROUTES.collections.detail()} element={<ProductDetailPage />} />
-        <Route path={APP_ROUTES.profile} element={<Profile />} />
+        <Route
+          path={APP_ROUTES.profile}
+          element={
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          }
+        />
       </Route>
 
       {/* Auth pages WITHOUT navbar + footer (clean layout) */}

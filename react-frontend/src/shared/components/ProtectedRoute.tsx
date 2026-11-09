@@ -8,12 +8,12 @@ interface Props {
 }
 
 export default function ProtectedRoute({ children, requiredRole }: Props) {
-  const { isAuthenticated, isLoading, user } = useAuth();
+  const { isAuthenticated, loading, user } = useAuth();
   const location = useLocation();
 
-  if (isLoading) {
+  if (loading) {
     return (
-      <Box display="flex" justifyContent="center" alignItems="center" minHeight="60vh">
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh' }}>
         <CircularProgress />
       </Box>
     );

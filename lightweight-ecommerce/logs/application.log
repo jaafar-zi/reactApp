@@ -1444,3 +1444,1939 @@
 2026-11-09 10:06:21 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
 2026-11-09 10:06:31 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
 2026-11-09 10:06:31 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:06:41 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:06:41 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:06:51 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:06:51 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:01 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:01 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:41 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:41 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:07:51 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:07:51 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:01 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:01 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:11 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:21 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:21 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:31 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:31 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:41 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:41 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:08:51 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:08:51 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:21 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:21 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:31 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:31 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:41 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:41 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:09:51 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:09:51 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:01 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:01 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:11 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:11 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:21 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:21 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:31 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:31 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:41 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:41 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:10:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:10:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:01 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:01 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:11 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:11 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:21 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:21 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:31 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:31 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:41 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:41 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:11:51 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:11:51 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:01 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:01 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:16 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-11-09 10:12:17 [http-nio-8080-exec-8] DEBUG o.s.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:3001' origin is not allowed
+2026-11-09 10:12:21 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:21 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:12:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:12:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:21 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:21 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:31 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:31 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:41 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:41 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:13:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:13:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:01 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:01 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:11 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:11 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:21 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:21 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:31 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:31 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:41 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:41 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:14:51 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:14:51 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:01 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:01 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:41 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:41 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:15:51 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:15:51 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:01 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:01 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:11 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:21 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:21 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:31 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:31 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:41 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:41 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:16:51 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:16:51 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:20 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/register
+2026-11-09 10:17:20 [http-nio-8080-exec-3] DEBUG o.s.web.cors.DefaultCorsProcessor - Reject: 'http://localhost:3001' origin is not allowed
+2026-11-09 10:17:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:41 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:41 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:17:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:17:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:31 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:31 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:41 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:41 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:18:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:18:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:01 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:01 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:19:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:19:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:11 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:11 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:21 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:21 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:20:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:20:52 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09 10:20:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-11-09 10:20:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-11-09 10:21:04 [main] INFO  com.ecommerce.EcommerceApplication - Starting EcommerceApplication using Java 17.0.14 with PID 8053 (/Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/target/classes started by admin in /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce)
+2026-11-09 10:21:04 [main] DEBUG com.ecommerce.EcommerceApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-11-09 10:21:04 [main] INFO  com.ecommerce.EcommerceApplication - The following 1 profile is active: "dev"
+2026-11-09 10:21:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09 10:21:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 176 ms. Found 14 JPA repository interfaces.
+2026-11-09 10:21:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-09 10:21:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-09 10:21:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-11-09 10:21:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-11-09 10:21:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6004 ms
+2026-11-09 10:21:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-09 10:21:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e7cfd49
+2026-11-09 10:21:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-09 10:21:12 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 14.17)
+2026-11-09 10:21:12 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.048s)
+2026-11-09 10:21:12 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-11-09 10:21:12 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-11-09 10:21:13 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09 10:21:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09 10:21:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09 10:21:17 [main] DEBUG c.e.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-11-09 10:21:17 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-11-09 10:21:17 [main] DEBUG o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+2026-11-09 10:21:17 [main] INFO  c.ecommerce.service.StorageService - Storage initialized at: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads
+2026-11-09 10:21:18 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-09 10:21:20 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-09 10:21:21 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 69 mappings in 'requestMappingHandlerMapping'
+2026-11-09 10:21:21 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-11-09 10:21:21 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-11-09 10:21:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6911005b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b7d363c, org.springframework.security.web.context.SecurityContextHolderFilter@f9769ae, org.springframework.security.web.header.HeaderWriterFilter@16be6b36, org.springframework.web.filter.CorsFilter@7e1d16b, org.springframework.security.web.authentication.logout.LogoutFilter@68d07b48, com.ecommerce.security.JwtAuthenticationFilter@7b91e3d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54856056, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48c7773, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2de11117, org.springframework.security.web.session.SessionManagementFilter@a83c657, org.springframework.security.web.access.ExceptionTranslationFilter@42775280, org.springframework.security.web.access.intercept.AuthorizationFilter@5a414ed4]
+2026-11-09 10:21:22 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-11-09 10:21:22 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4a9e4be7
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@304c8f39
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-11-09 10:21:23 [RMI TCP Connection(1)-192.168.1.119] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-11-09 10:21:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-11-09 10:21:23 [main] INFO  com.ecommerce.EcommerceApplication - Started EcommerceApplication in 20.019 seconds (process running for 21.15)
+2026-11-09 10:21:23 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-11-09 10:21:23 [main] INFO  com.ecommerce.config.DataSeeder - Admin user already exists: admin@ecommerce.com
+2026-11-09 10:21:31 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:21:31 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:21:31 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/actuator/prometheus' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-11-09 10:21:41 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:21:41 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:21:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:21:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/register
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/register
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth/register", parameters={}
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.AuthController#register(RegisterRequest)
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [RegisterRequest[firstName=Alouini, lastName=Jaafar, email=jaafaralouini100@gmail.com, password=djo@* (truncated)...]
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        app_user
+        (created_at, email, enabled, first_name, last_name, password, role, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2026-11-09 10:22:16 [http-nio-8080-exec-6] INFO  com.ecommerce.service.AuthService - New user registered: jaafaralouini100@gmail.com
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [AuthResponse[token=eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJqYWFmYXJhbG91aW5pMTAwQGdtYWlsLmNvbSIsImlhdCI6MTc5 (truncated)...]
+2026-11-09 10:22:16 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@38fe5da6, com.ecommerce.dto.ProductDTO@4ee5dae4, com.ecommerce.dto.Pro (truncated)...]
+2026-11-09 10:22:17 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:17 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg", parameters={}
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg", parameters={}
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:22:18 [http-nio-8080-exec-9] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png", parameters={}
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:22:18 [http-nio-8080-exec-1] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:22:18 [http-nio-8080-exec-10] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg", parameters={}
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:22:18 [http-nio-8080-exec-2] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:22:18 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:22:18 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:22:18 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:22:18 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@3b548d30, com.ecommerce.dto.ProductDTO@8e06e0b, com.ecommerce.dto.Prod (truncated)...]
+2026-11-09 10:22:18 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:22:21 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:21 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:31 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:31 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:41 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:41 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:22:51 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:22:51 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:01 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:01 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:11 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:21 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:21 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:31 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:31 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:41 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:41 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:23:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:23:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:01 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:01 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:21 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:21 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:31 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:31 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:41 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:41 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:24:51 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:24:51 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:01 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:01 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:11 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:11 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:21 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:21 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:31 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:31 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:41 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:41 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:25:51 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:25:51 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:26:01 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:26:01 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:26:11 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:26:11 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:26:21 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:26:21 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:36:58 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:36:58 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:01 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:01 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:07 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m54s746ms).
+2026-11-09 10:37:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:41 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:41 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:37:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:37:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:38:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:38:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:39:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:39:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:41 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:41 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:40:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:40:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:21 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:21 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:31 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:31 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:41 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:41 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:41:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:41:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:01 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:01 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:41 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:41 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:42:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:42:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:43:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:43:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:44:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:44:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:41 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:41 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:45:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:45:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:21 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:21 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:31 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:31 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:41 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:41 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:46:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:46:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:01 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:01 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:41 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:41 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:47:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:47:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:48:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:48:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:49:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:49:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:50:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:50:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:50:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:50:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:50:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:50:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:06 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:06 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:16 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s36ms).
+2026-11-09 10:52:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:52:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:52:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:01 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:01 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:31 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:41 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:41 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:53:51 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:53:51 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:21 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:21 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:31 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:31 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:41 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:41 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:54:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:54:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:01 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:01 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:21 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:21 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:31 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:41 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:41 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:55:51 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:55:51 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:01 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:01 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:41 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:41 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:56:51 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:56:51 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:01 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:01 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:31 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:31 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:41 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:41 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:57:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 10:57:57 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@66d3d555, com.ecommerce.dto.ProductDTO@d502b8d, com.ecommerce.dto.Prod (truncated)...]
+2026-11-09 10:57:58 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProductController#getAllProducts(boolean, String)
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p2_0.id,
+        p2_0.base_price,
+        p2_0.currency,
+        p2_0.product_id,
+        p2_0.sale_price,
+        p2_0.tax_rate,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        product_pricing p2_0 
+            on p1_0.id=p2_0.product_id 
+    where
+        p1_0.active=true 
+    order by
+        p1_0.created_at desc
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.attribute_key,
+        av1_0.product_attribute_id,
+        av1_0.id,
+        av1_0.value,
+        a1_0.language,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_attributes a1_0 
+            on p1_0.id=a1_0.product_id 
+    left join
+        attribute_values av1_0 
+            on a1_0.id=av1_0.product_attribute_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        a1_0.product_id,
+        a1_0.id,
+        a1_0.alt_text,
+        a1_0.asset_link_id,
+        a1_0.asset_type,
+        a1_0.display_order,
+        a1_0.is_primary,
+        a1_0.url,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_assets a1_0 
+            on p1_0.id=a1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?) 
+    order by
+        a1_0.display_order
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        distinct p1_0.id,
+        p1_0.active,
+        p1_0.created_at,
+        p1_0.description_key,
+        p1_0.name_key,
+        p1_0.sku,
+        p1_0.updated_at,
+        v1_0.product_id,
+        v1_0.id,
+        v1_0.active,
+        v1_0.created_at,
+        v1_0.size,
+        v1_0.sku,
+        v1_0.updated_at 
+    from
+        products p1_0 
+    left join
+        product_variants v1_0 
+            on p1_0.id=v1_0.product_id 
+    where
+        p1_0.id in (?, ?, ?, ?)
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png", parameters={}
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg", parameters={}
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg", parameters={}
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.variant_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg", parameters={}
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:57:58 [http-nio-8080-exec-3] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-1] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:57:58 [http-nio-8080-exec-2] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:57:58 [http-nio-8080-exec-8] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:57:58 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:57:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:57:58 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:57:58 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:58 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        akt1_0.id,
+        akt1_0.attribute_key,
+        akt1_0.label,
+        akt1_0.language 
+    from
+        attribute_key_translations akt1_0 
+    where
+        akt1_0.language=?
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        i1_0.id,
+        i1_0.last_updated,
+        i1_0.min_stock_level,
+        i1_0.product_id,
+        i1_0.quantity,
+        i1_0.reserved_quantity,
+        i1_0.variant_id 
+    from
+        inventory i1_0 
+    where
+        i1_0.product_id=?
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.ecommerce.dto.ProductDTO@5d7df401, com.ecommerce.dto.ProductDTO@46b48c2c, com.ecommerce.dto.Pro (truncated)...]
+2026-11-09 10:57:59 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:01 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:01 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg", parameters={}
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg", parameters={}
+2026-11-09 10:58:03 [http-nio-8080-exec-7] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:03 [http-nio-8080-exec-10] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg", parameters={}
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png", parameters={}
+2026-11-09 10:58:03 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:03 [http-nio-8080-exec-5] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:03 [http-nio-8080-exec-6] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth/login", parameters={}
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.AuthController#login(LoginRequest)
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequest[email=jaafaralouini100@gmail.com, password=djo@*123]]
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:12 [http-nio-8080-exec-1] INFO  com.ecommerce.service.AuthService - User logged in: jaafaralouini100@gmail.com
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [AuthResponse[token=eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJqYWFmYXJhbG91aW5pMTAwQGdtYWlsLmNvbSIsImlhdCI6MTc5 (truncated)...]
+2026-11-09 10:58:12 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:12 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg", parameters={}
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-8] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/c8ba03c8-9882-4de1-829b-d1d570aa7156.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png", parameters={}
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg", parameters={}
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/media/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg", parameters={}
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:12 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:12 [http-nio-8080-exec-4] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/d7cd1460-67a7-431d-852d-f9e8d97b512c.jpeg
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.DevMediaFallbackController#serveMedia(HttpServletRequest)
+2026-11-09 10:58:12 [http-nio-8080-exec-7] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/04ccdcf4-b0b6-4b54-b687-20343d7a21be.png
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:12 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:12 [http-nio-8080-exec-9] WARN  c.e.web.DevMediaFallbackController - Media file not found: /Users/admin/Desktop/deploymentFolder/lightweight-ecommerce/uploads/product/878e017b-3564-4b0c-9d30-0605833384b6.jpg
+2026-11-09 10:58:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'image/jxl', given [image/jxl, image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [*/*, application/json, application/*+json]
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-11-09 10:58:12 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:13 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:13 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:13 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:15 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        app_user u1_0 
+    where
+        u1_0.email=?
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/profile
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auth/profile", parameters={}
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ecommerce.web.ProfileController#getProfile(User)
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ProfileResponse[id=2, email=jaafaralouini100@gmail.com, firstName=Alouini, lastName=Jaafar, role=USE (truncated)...]
+2026-11-09 10:58:15 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-11-09 10:58:21 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:21 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-11-09 10:58:31 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+2026-11-09 10:58:31 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext

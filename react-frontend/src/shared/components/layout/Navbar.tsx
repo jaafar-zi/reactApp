@@ -16,12 +16,14 @@ import MenuIcon from '@mui/icons-material/Menu';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutlined';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+import LogoutIcon from '@mui/icons-material/Logout';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { selectCartCount, toggleCart } from '../../../features/cart/slice/cartSlice';
 import { APP_ROUTES } from '../../constants/routes';
 import { useAppDispatch, useAppSelector } from '../../../store/hooks';
 import { LanguageSwitcher } from '../ui/LanguageSwitcher';
+import useAuth from '../../hooks/useAuth';
 
 export const Navbar: React.FC = () => {
   const { t } = useTranslation('common');
@@ -29,6 +31,12 @@ export const Navbar: React.FC = () => {
   const dispatch = useAppDispatch();
   const cartCount = useAppSelector(selectCartCount);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { isAuthenticated, user, logout } = useAuth();
+
+  const handleLogout = () => {
+    logout();
+    navigate(APP_ROUTES.auth.login);
+  };
 
   const navLinks = [
     { label: t('nav.home'), to: APP_ROUTES.home },
@@ -117,13 +125,32 @@ export const Navbar: React.FC = () => {
           <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <LanguageSwitcher />
 
-            <IconButton
-              onClick={() => navigate(APP_ROUTES.profile)}
-              aria-label={t('nav.profile')}
-              sx={{ color: '#000' }}
-            >
-              <PersonOutlineIcon fontSize="small" />
-            </IconButton>
+            {isAuthenticated ? (
+              <>
+                <IconButton
+                  onClick={() => navigate(APP_ROUTES.profile)}
+                  aria-label={t('nav.profile')}
+                  sx={{ color: '#000' }}
+                >
+                  <PersonOutlineIcon fontSize="small" />
+                </IconButton>
+                <IconButton
+                  onClick={handleLogout}
+                  aria-label="Logout"
+                  sx={{ color: '#000' }}
+                >
+                  <LogoutIcon fontSize="small" />
+                </IconButton>
+              </>
+            ) : (
+              <IconButton
+                onClick={() => navigate(APP_ROUTES.auth.login)}
+                aria-label={t('nav.profile')}
+                sx={{ color: '#000' }}
+              >
+                <PersonOutlineIcon fontSize="small" />
+              </IconButton>
+            )}
 
             <IconButton
               onClick={() => dispatch(toggleCart())}
@@ -198,6 +225,70 @@ export const Navbar: React.FC = () => {
               </ListItemButton>
             </ListItem>
           ))}
+          <Divider sx={{ my: '1rem' }} />
+          {isAuthenticated ? (
+            <>
+              <ListItem disablePadding>
+                <ListItemButton
+                  onClick={() => { navigate(APP_ROUTES.profile); setMobileOpen(false); }}
+                >
+                  <ListItemText
+                    primary={user?.firstName || t('nav.profile')}
+                    slotProps={{
+                      primary: {
+                        sx: {
+                          fontSize: '0.875rem',
+                          fontWeight: 500,
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.1em',
+                        },
+                      },
+                    }}
+                  />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                <ListItemButton
+                  onClick={() => { handleLogout(); setMobileOpen(false); }}
+                >
+                  <ListItemText
+                    primary="Logout"
+                    slotProps={{
+                      primary: {
+                        sx: {
+                          fontSize: '0.875rem',
+                          fontWeight: 500,
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.1em',
+                          color: 'error.main',
+                        },
+                      },
+                    }}
+                  />
+                </ListItemButton>
+              </ListItem>
+            </>
+          ) : (
+            <ListItem disablePadding>
+              <ListItemButton
+                onClick={() => { navigate(APP_ROUTES.auth.login); setMobileOpen(false); }}
+              >
+                <ListItemText
+                  primary="Login"
+                  slotProps={{
+                    primary: {
+                      sx: {
+                        fontSize: '0.875rem',
+                        fontWeight: 500,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.1em',
+                      },
+                    },
+                  }}
+                />
+              </ListItemButton>
+            </ListItem>
+          )}
         </List>
       </Drawer>
     </>
